@@ -81,26 +81,6 @@ body {
     display: none;
 }
 
-.fullscreenButton {
-    font-size: 10pt;
-    padding: 5pt;
-    color: rgb(100, 100, 100);
-    background-color: white;
-    font-weight: 600;
-    border-radius: 10px;
-    border-color: black;
-    text-shadow: 5pt;
-    font-family: arial;
-}
-
-.fullscreenButton:hover {
-    background-color: lightgray;
-}
-
-.fullscreenButton:active {
-    background-color: darkgray;
-}
-
 #screenWrapper {
     display: flex;
     justify-content: center;
@@ -145,4 +125,16 @@ div.desc {
     .responsive {
         width: 100%;
     }
+}
+
+.propaganda {
+    margin: .5rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    font-size: .8rem;
+    line-height: 1.5;
+    padding: .5rem 1rem;
 }
