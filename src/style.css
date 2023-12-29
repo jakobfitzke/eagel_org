@@ -26,6 +26,7 @@ body {
     font-size: 1.2rem;
     text-decoration: none;
     font-family: Arial;
+    border-radius: .4rem;
 }
 
 .topnav img {
