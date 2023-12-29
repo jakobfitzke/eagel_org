@@ -84,7 +84,7 @@ body {
 
 #screenWrapper {
     display: flex;
-    justify-main: center;
+    justify-content: center;
 }
 
 .textpage {
