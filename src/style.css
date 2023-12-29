@@ -59,8 +59,8 @@ body {
     width: 90%;
     margin: 3%;
     margin-top: 1rem;
-    max-height: 90vh;
-    max-width: 90vh;
+    max-height: 85vh;
+    max-width: 85vh;
     aspect-ratio: 1/1;
     align-self: center;
 }
