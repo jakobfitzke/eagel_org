@@ -55,7 +55,7 @@ body {
     width: 100%;
 }
 
-.content {
+.main {
     padding: 0;
     padding-top: 2.8rem;
 }
@@ -84,7 +84,7 @@ body {
 
 #screenWrapper {
     display: flex;
-    justify-content: center;
+    justify-main: center;
 }
 
 .textpage {
@@ -93,6 +93,7 @@ body {
 
 div.gallery {
     border: 1px solid #ccc;
+    margin-bottom: 5px;
 }
 
 div.gallery:hover {
@@ -104,7 +105,7 @@ div.gallery img {
     height: auto;
 }
 
-div.desc {
+figcaption {
     padding-bottom: 5px;
     text-align: center;
     font-size: 0.9rem;
@@ -124,7 +125,7 @@ div.desc {
 
 @media only screen and (max-width: 500px) {
     .responsive {
-        width: 100%;
+        width: 96%;
     }
 }
 
@@ -138,4 +139,12 @@ footer {
     font-size: .8rem;
     line-height: 1.5;
     padding: .5rem 1rem;
+    clear: left;
+}
+
+.textimg {
+    float: right;
+    width: 15rem;
+    max-width: 50%;
+    margin: 1rem;
 }
