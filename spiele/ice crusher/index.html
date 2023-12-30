@@ -11,14 +11,20 @@
 </head>
 
 <body>
-    <div class="topnav sticky">
-        <a href="../../home"><img src="../../src/eagel.jpeg" /></a>
-        <a href="../../home">Home</a>
-        <a href="../../grundlagen">Grundlagen</a>
-        <a href="../../spiele" class="active">Spiele</a>
-        <a href="../../gebote">Gebote</a>
-        <a href="../../propaganda">Propaganda</a>
-    </div>
+    <nav class="topnav sticky">
+        <a class="navlink" href="../../home"><img src="../../src/eagel.jpeg" /></a>
+        <a class="navlink" href="../../home">Home</a>
+        <a class="navlink" href="../../grundlagen">Grundlagen</a>
+        <div class="subnav">
+            <div class="navlink active"><b>Spiele</b></div>
+            <div class="subnav-content">
+                <a href="../../spiele/ice crusher">Ice Crusher</a>
+                <a href="../../spiele/memory">Memory</a>
+            </div>
+        </div>
+        <a href="../../gebote" class="navlink">Gebote</a>
+        <a href="../../propaganda" class="navlink">Propaganda</a>
+    </nav>
     <main>
         <div class="invisible">
             <img id="img_ball" src="assets/images/ball.png" />
