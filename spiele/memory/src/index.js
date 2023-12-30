@@ -266,8 +266,10 @@ function memory() {
 
     function moved(evt, canvas) {
         var rect = canvas.getBoundingClientRect();
-        mouseX = evt.clientX - rect.left;
-        mouseY = evt.clientY - rect.top;
+        var scaleX = canvas.width / rect.width;
+        var scaleY = canvas.height / rect.height;
+        mouseX = (evt.clientX - rect.left) * scaleX;
+        mouseY = (evt.clientY - rect.top) * scaleY;
     }
 
     fullScreenCanvas.addEventListener('mousedown', click);
