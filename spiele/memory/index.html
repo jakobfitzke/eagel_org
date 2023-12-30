@@ -8,6 +8,9 @@
     <meta name='viewport' main='width=device-width, initial-scale=1'>
     <link rel="shortcut icon" type="image/jpg" href="../../src/eagel64x64.png">
     <link rel='stylesheet' type='text/css' media='screen' href='../../src/style.css'>
+    <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
 </head>
 
 <body>
@@ -45,14 +48,15 @@
             <img id="card16" src="assets/images/16.png" />
             <img id="back" src="assets/images/back.png" />
         </div>
-        <canvas id="gameScreenMemory" class="gameScreen" width="832" height="624"></canvas>
+        <div class="screenWrapper">
+            <canvas id="gameScreenMemory" class="gameScreen" width="1664" height="1248"></canvas>
+        </div>
         <script src="src/index.js"></script>
         <br />
     </main>
     <footer>
         <p>
-            test1<br />
-            test2
+            &copy; 2023 Eagel
         </p>
     </footer>
 </body>
