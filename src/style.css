@@ -94,7 +94,7 @@ body {
     width: 100%;
 }
 
-.main {
+main {
     padding: 0;
     padding-top: 2.8rem;
 }
@@ -109,7 +109,6 @@ body {
 .gameScreen {
     border: 1px solid #000000;
     width: 90%;
-    margin: 3%;
     margin-top: 1rem;
     max-height: 85vh;
     max-width: 85vh;
@@ -118,6 +117,10 @@ body {
 
 #gameScreenIceBreaker {
     aspect-ratio: 1/1;
+}
+
+#gameScreenMemory {
+    aspect-ratio: 4/3;
 }
 
 .invisible {
@@ -130,7 +133,7 @@ body {
 }
 
 .textpage {
-    margin: 1.5em 2em;
+    margin: 1em 2em;
 }
 
 div.gallery {
