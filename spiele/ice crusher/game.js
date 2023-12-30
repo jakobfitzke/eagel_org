@@ -553,7 +553,7 @@ class Game {
   }
 }
 
-let canvas = document.getElementById("gameScreen");
+let canvas = document.getElementById("gameScreenIceBreaker");
 let ctx = canvas.getContext("2d");
 
 const GAME_WIDTH = 832;
@@ -567,7 +567,7 @@ var mouseX = 0;
 var fullScreenCanvas = document.querySelector('canvas');
 
 function fullScreen() {
-  var el = document.getElementById('gameScreen')
+  var el = document.getElementById('gameScreenIceBreaker')
   if (el.webkitRequestFullScreen) {
     el.webkitRequestFullScreen();
   }
