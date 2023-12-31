@@ -1,6 +1,6 @@
 var ddoe = {
     1: { fileName: 'imgo.jpeg', desc: 'Eagel Update, Day 1:<br/>Mr. Eagel took over some cat territory, Nicky is not amused' },
-    2: { fileName: 'default.JPG', desc: 'Eagel Update, Day 2:<br/>the great Eagel had some fun playing hide and seek with his new fren, the smol eagel. (thanks Hannes Wintermeier again ^^)' },
+    2: { fileName: 'default.JPG', desc: 'Eagel Update, Day 2:<br/>the great Eagel had some fun playing hide and seek with his new fren, the smol eagel' },
     3: { fileName: 'IMG_5578.JPG', desc: 'Eagel Update, Day 3:<br/>R   U   N', image: 'Screenshot_Prometheus.png' },
     4: { fileName: 'MicrosoftTeams-image(6).jpeg', desc: 'Eagel Update, Day 4:<br/>our spiky friend decided to go for a walk...' },
     5: { fileName: 'IMG_5581.JPG', desc: 'Eagel Update, Day 5:<br/>Professor Eagel already started to miss school and tried a new book - he seems to like it :)<br/>(Also, the Eagel said that he really appreciates the new name of this team, thanks to whoever did that )' },
@@ -27,12 +27,12 @@ var ddoe = {
     24: { fileName: 'IMG_5676.JPG', desc: 'Eagel Update, Day 24:<br/>Oh shit it\'s the hood Eagel', image: 'Screenshot 2023-12-30 165944.png' },
     25: { fileName: 'train.jpg', desc: 'Eagel Update, Day 25:<br/>the smol Eagel felt kinda lonely on his shelf, so he went to Mr. Eagel to play with the wooden railway :D' },
     26: { fileName: 'IMG_5680.JPG', desc: 'Eagel Update, Day 26:<br/>now that\'s a really cool picture of the Eagel' },
-    27: { fileName: 'IMG_5686.jpg', desc: 'Eagel Update, Day 27:<br/>as someone with really short feet, Mr. Eagel wished to travel through Bad Krozingen a little faster today...' },
-    28: { fileName: 'IMG_5688.JPG', desc: 'Eagel Update, Day 28:<br/>Because sitting in Bad Krozingen all day long is boring, the Eagel makes some preparations... :D' },
+    27: { fileName: 'IMG_5686.jpg', desc: 'Eagel Update, Day 27:<br/>as someone with really short feet, Mr. Eagel wished to travel through _ a little faster today...' },
+    28: { fileName: 'IMG_5688.JPG', desc: 'Eagel Update, Day 28:<br/>Because sitting in _ all day long is boring, the Eagel makes some preparations... :D' },
     29: { fileName: 'IMG_5693.JPG', desc: 'Eagel Update, Day 29:<br/>The Eagel and me were hiking to Geiersnest today, nice temperature, no wind, perfect weather for flying some RC planes in front of the great scenery :D' },
     30: { fileName: 'uno.jpg', desc: 'Eagel Update, Day 30:<br/>now that is bad luck for Mr. Eagel...' },
-    31: { fileName: 'italy.jpg', desc: 'Eagel Update, Day 31:<br/>May I introduce you to Alberto? That\'s the Eagels new friend, they met in Offenburg today :)<br/>He really is a very socially active hedgehog...', image: 'Screenshot 2023-12-30 171440.png' },
-    32: { fileName: 'IMG_5733.JPG', desc: 'Eagel Update, Day 32:<br/>the need for speed... (didn´t have a jet laying around, otherwise this would have been Super-Sonic... ahh horrible pun)' },
+    31: { fileName: 'italy.jpg', desc: 'Eagel Update, Day 31:<br/>May I introduce you to Alberto? That\'s the Eagels new friend, they met in _ today :)<br/>He really is a very socially active hedgehog...', image: 'Screenshot 2023-12-30 171440.png' },
+    32: { fileName: 'IMG_5733.JPG', desc: 'Eagel Update, Day 32:<br/>the need for speed... (didn\'t have a jet laying around, otherwise this would have been Super-Sonic... ahh horrible pun)' },
     33: { fileName: 'IMG_5740.JPG', desc: 'Eagel Update, Day 33:<br/>behold... the VLC-Eagel!', image: 'Screenshot 2023-12-30 171647.png' },
     34: { fileName: 'nose.jpg', desc: 'Eagel Update, Day 34:<br/>no creativity today :|<br/>but you can virtually boop the Eagel\'s nose ^^' },
     35: { fileName: 'brit.jpg', desc: 'Eagel Update, Day 35:<br/>very bri\'ish' },
@@ -78,6 +78,10 @@ function showSlides(n) {
     numberText.innerHTML = "" + slideIndex + "/" + (Object.keys(ddoe).length)
     slideImg.setAttribute("src", "../../src/blog/ddoe1/" + ddoe[slideIndex]['fileName'])
     captionText.innerHTML = ddoe[slideIndex]['desc']
+    if (Object.keys(ddoe[slideIndex]).includes('image')) {
+        image = ddoe[slideIndex]['image']
+        captionText.innerHTML += "<br/><br/><img style='max-width: 50%' src='../../src/blog/ddoe1/" + image + "'/>"
+    }
     /*let i;
     let slides = document.getElementsByClassName("mySlides");
     let captionText = document.getElementById("caption");
@@ -92,7 +96,7 @@ function showSlides(n) {
 
 function galleryInit() {
     slideIndex = Object.keys(ddoe).length;
-    showSlides(Object.keys(ddoe).lengths)
+    showSlides(Object.keys(ddoe).length)
 }
 
 var slideIndex
