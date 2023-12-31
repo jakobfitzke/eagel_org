@@ -221,7 +221,6 @@ footer {
 
 #slide {
     display: block;
-    border: solid rgb(255, 0, 43);
     text-align: center;
 }
 
@@ -256,17 +255,25 @@ footer {
     font-size: 12px;
     padding: 8px 12px;
     position: absolute;
-    top: 0;
+    top: 2.8rem;
+    margin: .1rem;
+    background-color: #00000090;
+    border-radius: 10px;
 }
 
 .caption-container {
     text-align: center;
-    background-color: #222;
+    background-color: #444;
     padding: 2px 16px;
-    color: white;
+    color: #fff;
 }
 
 #slide img {
-    max-height: 75vh;
+    max-height: 73vh;
     max-width: 100%;
+}
+
+#caption {
+    font-size: 1rem;
+    text-align: left;
 }

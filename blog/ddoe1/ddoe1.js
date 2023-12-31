@@ -1,6 +1,6 @@
 var ddoe = {
     1: { fileName: 'imgo.jpeg', desc: 'Eagel Update, Day 1:<br/>Mr. Eagel took over some cat territory, Nicky is not amused' },
-    2: { fileName: 'default.jpeg', desc: 'Eagel Update, Day 2:<br/>the great Eagel had some fun playing hide and seek with his new fren, the smol eagel. (thanks Hannes Wintermeier again ^^)' },
+    2: { fileName: 'default.JPG', desc: 'Eagel Update, Day 2:<br/>the great Eagel had some fun playing hide and seek with his new fren, the smol eagel. (thanks Hannes Wintermeier again ^^)' },
     3: { fileName: 'IMG_5578.JPG', desc: 'Eagel Update, Day 3:<br/>R   U   N', image: 'Screenshot_Prometheus.png' },
     4: { fileName: 'MicrosoftTeams-image(6).jpeg', desc: 'Eagel Update, Day 4:<br/>our spiky friend decided to go for a walk...' },
     5: { fileName: 'IMG_5581.JPG', desc: 'Eagel Update, Day 5:<br/>Professor Eagel already started to miss school and tried a new book - he seems to like it :)<br/>(Also, the Eagel said that he really appreciates the new name of this team, thanks to whoever did that )' },
@@ -19,7 +19,7 @@ var ddoe = {
         fileName: 'IMG_5624.JPG', desc: 'Eagel Update, Day 17:<br/>Mr. Eagel is watching the sky, hoping for some shooting stars to come by :)<br/>(very poetic)<br/>(btw the stars are visible, my camera is just too bad to see it)'
     },
     18: { fileName: 'IMG_5628.JPG', desc: 'Eagel Update, Day 18:<br/>You know, horses are just way too mainstream...', image: 'cat_context.png' },
-    19: { fileName: 'IMG_5639.JPG', desc: 'Eagel Update, Day 19:<br/>Mr. Eagel tried to find out what\'s cooking for lunch,<br/>but his feet were too small to stay on the ground... oopsie ¯\_(ツ)_/¯' },
+    19: { fileName: 'IMG_5639.JPG', desc: 'Eagel Update, Day 19:<br/>Mr. Eagel tried to find out what\'s cooking for lunch,<br/>but his feet were too small to stay on the ground... oopsie ¯\\_(ツ)_/¯' },
     20: { fileName: 'IMG_5643.JPG', desc: 'Eagel Update, Day 20:<br/>As he got a little dirty in the pot yesterday, Mr. Eagel went to clean himself a bit (and also got the spinny time of his life).' },
     21: { fileName: 'explorer.jpeg', desc: 'Eagel Update, Day 21:<br/>as night fell, the brave explorer named Eagel started to do some research in the hidden corners of the weird cube of the humans that they call house...' },
     22: { fileName: 'IMG_5652[1].JPG', desc: 'Eagel Update, Day 22:<br/>although he has a hard time reaching the steering wheel, Mr. Eagel is very motivated to get his drivers license.', image: 'Screenshot 2023-12-30 165636.png' },
@@ -48,7 +48,7 @@ var ddoe = {
     45: { fileName: 'plane.jpg', desc: 'Eagel Update, Day 45:<br/>sadly every holiday comes to an end... but the flight back was definitely enjoyable :D', image: 'Screenshot 2023-12-30 172906.png' },
     46: { fileName: 'smol.jpg', desc: 'Eagel Update, Day 46:<br/>today we have to admire the smol Eagel being very brave at his first sleepover without his big friend :D' },
     47: { fileName: 'art.jpg', desc: 'Eagel Update, Day 47:<br/>as I lost every creativity again, this amazing artwork has to be enough' },
-    48: { fileName: 'Der originale IGEL', desc: 'Eagel Update, Day 48:<br/>enjoy this original picture of the Eagel as a good ending of those daily updates. Don\'t worry, tomorrow you will see Mr. Eagel in person again ;)' },
+    48: { fileName: 'Der originale IGEL.JPG', desc: 'Eagel Update, Day 48:<br/>enjoy this original picture of the Eagel as a good ending of those daily updates. Don\'t worry, tomorrow you will see Mr. Eagel in person again ;)' },
 }
 
 function createHtml(index) {
@@ -68,14 +68,16 @@ function plusSlides(n) {
     showSlides(slideIndex += n);
 }
 
-
 function showSlides(n) {
-    let slide = document.getElementsById("slide");
+    let slide = document.getElementById("slide");
     let captionText = document.getElementById("caption");
-    let numbertext = document.getElementById("numbertext");
-    let slideimg = document.getElementById("");
-    if (n > ddoe.length) { slideIndex = 1 }
-    if (n < 1) { slideIndex = ddoe.length }
+    let numberText = document.getElementById("numbertext");
+    let slideImg = document.getElementById("slideimg");
+    if (n > Object.keys(ddoe).length) { slideIndex = 1 }
+    if (n < 1) { slideIndex = Object.keys(ddoe).length }
+    numberText.innerHTML = "" + slideIndex + "/" + (Object.keys(ddoe).length)
+    slideImg.setAttribute("src", "../../src/blog/ddoe1/" + ddoe[slideIndex]['fileName'])
+    captionText.innerHTML = ddoe[slideIndex]['desc']
     /*let i;
     let slides = document.getElementsByClassName("mySlides");
     let captionText = document.getElementById("caption");
@@ -88,5 +90,9 @@ function showSlides(n) {
     captionText.innerHTML = dots[slideIndex - 1].alt;*/
 }
 
-// Image Gallery
-let slideIndex = 1;
+function galleryInit() {
+    slideIndex = Object.keys(ddoe).length;
+    showSlides(Object.keys(ddoe).lengths)
+}
+
+var slideIndex
