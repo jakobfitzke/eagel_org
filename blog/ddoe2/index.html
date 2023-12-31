@@ -4,14 +4,14 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' main='IE=edge'>
-    <title>Blog</title><!------------------->
+    <title>Daily Dose of Eagel 2.0</title><!------------------->
     <meta name='viewport' main='width=device-width, initial-scale=1'>
     <link rel="shortcut icon" type="image/jpg" href="../../src/eagel64x64.png">
     <link rel='stylesheet' type='text/css' media='screen' href='../../src/style.css'>
-
+    <script src="ddoe.js"></script>
 </head>
 
-<body>
+<body onload="galleryInit()">
     <nav class="topnav sticky">
         <a class="navlink" href="../../home"><img src="../../src/eagel64x64.png" /></a>
         <a class="navlink" href="../../home">Home</a>
@@ -27,7 +27,24 @@
         <a href="../../propaganda" class="navlink">Propaganda</a>
         <a href="../../blog" class="navlink active">Blog</a>
     </nav>
-    <main class="textpage">
+    <main class="blogGallery">
+        <!-- Container for the image gallery -->
+        <div class="container">
+            <!-- Images with number text -->
+            <div id="slide">
+                <div id="numbertext"></div>
+                <img src="../../src/blog/ddoe2/" id="slideimg">
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <!-- Image text -->
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+        </div>
     </main>
 </body>
 <footer>
