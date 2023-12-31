@@ -1,4 +1,4 @@
-let ddoe = {
+var ddoe = {
     1: { fileName: 'imgo.jpeg', desc: 'Eagel Update, Day 1:<br/>Mr. Eagel took over some cat territory, Nicky is not amused' },
     2: { fileName: 'default.jpeg', desc: 'Eagel Update, Day 2:<br/>the great Eagel had some fun playing hide and seek with his new fren, the smol eagel. (thanks Hannes Wintermeier again ^^)' },
     3: { fileName: 'IMG_5578.JPG', desc: 'Eagel Update, Day 3:<br/>R   U   N', image: 'Screenshot_Prometheus.png' },
@@ -50,3 +50,43 @@ let ddoe = {
     47: { fileName: 'art.jpg', desc: 'Eagel Update, Day 47:<br/>as I lost every creativity again, this amazing artwork has to be enough' },
     48: { fileName: 'Der originale IGEL', desc: 'Eagel Update, Day 48:<br/>enjoy this original picture of the Eagel as a good ending of those daily updates. Don\'t worry, tomorrow you will see Mr. Eagel in person again ;)' },
 }
+
+function createHtml(index) {
+    let fileName = ddoe[index]['fileName']
+    let desc = ddoe[index]['desc']
+    let image = null
+    if (Object.keys(ddoe[index]).includes('image')) {
+        image = ddoe[index]['image']
+    }
+    console.log(image)
+}
+
+createHtml(3)
+
+// Next/previous controls
+function plusSlides(n) {
+    showSlides(slideIndex += n);
+}
+
+
+function showSlides(n) {
+    let slide = document.getElementsById("slide");
+    let captionText = document.getElementById("caption");
+    let numbertext = document.getElementById("numbertext");
+    let slideimg = document.getElementById("");
+    if (n > ddoe.length) { slideIndex = 1 }
+    if (n < 1) { slideIndex = ddoe.length }
+    /*let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let captionText = document.getElementById("caption");
+    if (n > slides.length) { slideIndex = 1 }
+    if (n < 1) { slideIndex = slides.length }
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slides[slideIndex - 1].style.display = "block";
+    captionText.innerHTML = dots[slideIndex - 1].alt;*/
+}
+
+// Image Gallery
+let slideIndex = 1;
