@@ -1,6 +1,6 @@
 var ddoe = {
     1: { fileName: 'imgo.jpeg', desc: 'Eagel Update, Day 1:<br/>Mr. Eagel took over some cat territory, Nicky is not amused' },
-    2: { fileName: 'default.JPG', desc: 'Eagel Update, Day 2:<br/>the great Eagel had some fun playing hide and seek with his new fren, the smol eagel' },
+    2: { fileName: 'default.jpg', desc: 'Eagel Update, Day 2:<br/>the great Eagel had some fun playing hide and seek with his new fren, the smol eagel' },
     3: { fileName: 'IMG_5578.JPG', desc: 'Eagel Update, Day 3:<br/>R   U   N', image: 'Screenshot_Prometheus.png' },
     4: { fileName: 'MicrosoftTeams-image(6).jpeg', desc: 'Eagel Update, Day 4:<br/>our spiky friend decided to go for a walk...' },
     5: { fileName: 'IMG_5581.JPG', desc: 'Eagel Update, Day 5:<br/>Professor Eagel already started to miss school and tried a new book - he seems to like it :)<br/>(Also, the Eagel said that he really appreciates the new name of this team, thanks to whoever did that )' },
