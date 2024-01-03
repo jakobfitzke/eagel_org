@@ -286,4 +286,12 @@ footer {
         top: 10rem;
         font-size: 40px;
     }
+
+    .responsive {
+        width: 47%;
+    }
+
+    figcaption {
+        font-size: 2.5rem;
+    }
 }
