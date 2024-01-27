@@ -1,0 +1,38 @@
+Let's make a game!
+	name:Eagel Clicker
+	author:Hedgehog Headshot
+	desc:Ehre dem Eagel!
+CSS
+	#game.on 
+	{
+	    background-size: 100%;
+		background-position-y: 50%;
+	    image-rendering: pixelated;
+	}
+Settings
+	background:https://eagel.org/src/eagel.jpeg
+	stylesheet:stuff/bigBlue.css
+Buildings
+    *egg|ei
+        name:Ei
+        desc:Irgendwo müssen die Federn ja herkommen
+        on tick:yield 0.2 feather
+        cost:40 feather
+    *chicken|huhn
+        name:Huhn
+        desc:Es ist an der Zeit, deine Flügel zu rächen
+        on tick:yield 1 feather
+        cost:100 feather
+Resources
+    *feather|feder
+        name:Feder
+        desc:Sie wurden dir gestohlen, du holst sie nur zurück...
+    *knifes|messer
+        name:Messer
+        desc:VeRaNtWoRtUnGsVoLlE tIeRhAlTuNg
+        on tick:yield 1 feather
+Buttons
+    *chickenBtn
+        name:Huhn rupfen
+        on click:yield 1 feather
+        class:bigButton hasFlares
