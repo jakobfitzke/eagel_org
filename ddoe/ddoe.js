@@ -1,8 +1,9 @@
 var ddoe = {
-    1: { fileName: 'spiky.png', desc: 'Eagel Update, Day 1:<br/>Enjoying the day with his spiky friends!' },
+    1: { fileName: 'spiky.jpg', desc: 'Eagel Update, Day 1:<br/>Enjoying the day with his spiky friends!' },
     2: { fileName: 'lockers.jpeg', desc: 'Eagel Update, Day 2:<br/>Wait, why does it smell like cheese here (if you don\'t get the context, you\'re lucky)' },
     3: { fileName: 'seminary.jpeg', desc: 'Eagel Update, Day 3:<br/>The Eagel loves watching people struggle with things he won\'t need to care about' },
-    4: { fileName: 'cat.png', desc: 'Eagel Update, Day 4:<br/>My cat knows how to bow properly to the Eagel' },
+    4: { fileName: 'cat.jpg', desc: 'Eagel Update, Day 4:<br/>My cat knows how to bow properly to the Eagel' },
+    5: { fileName: 'bike.jpeg', desc: 'Eagel Update, Day 5:<br/>Ready to go on a road trip!' },
 }
 
 // n: { fileName: '', desc: 'Eagel Update, Day n:<br/>', image: '' },
