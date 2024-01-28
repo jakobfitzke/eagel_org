@@ -4,6 +4,7 @@ var ddoe = {
     3: { fileName: 'seminary.jpeg', desc: 'Eagel Update, Day 3:<br/>The Eagel loves watching people struggle with things he won\'t need to care about' },
     4: { fileName: 'cat.jpg', desc: 'Eagel Update, Day 4:<br/>My cat knows how to bow properly to the Eagel' },
     5: { fileName: 'bike.jpeg', desc: 'Eagel Update, Day 5:<br/>Ready to go on a road trip!' },
+    6: { fileName: 'GG.jpeg', desc: 'Eagel Update, Day 6:<br/>Interesting what rules apply to humans... But I can\'t find anything about Eagels hehe' },
 }
 
 // n: { fileName: '', desc: 'Eagel Update, Day n:<br/>', image: '' },
