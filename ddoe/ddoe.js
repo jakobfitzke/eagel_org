@@ -6,6 +6,7 @@ var ddoe = {
     5: { fileName: 'bike.jpeg', desc: 'Eagel Update, Day 5:<br/>Ready to go on a road trip!' },
     6: { fileName: 'GG.jpeg', desc: 'Eagel Update, Day 6:<br/>Interesting what rules apply to humans... But I can\'t find anything about Eagels hehe' },
     7: { fileName: 'inside.jpeg', desc: 'Eagel Update, Day 7:<br/>Pretty dark here in the locker... Luckily there are cereal bars!' },
+    8: { fileName: 'Waffle.jpeg', desc: 'Eagel Update, Day 8:<br/>Look at our spiky friend getting some waffles at the local supermarket.' },
 }
 
 // n: { fileName: '', desc: 'Eagel Update, Day n:<br/>', image: '' },
