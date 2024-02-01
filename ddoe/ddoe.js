@@ -7,6 +7,8 @@ var ddoe = {
     6: { fileName: 'GG.jpeg', desc: 'Eagel Update, Day 6:<br/>Interesting what rules apply to humans... But I can\'t find anything about Eagels hehe' },
     7: { fileName: 'inside.jpeg', desc: 'Eagel Update, Day 7:<br/>Pretty dark here in the locker... Luckily there are cereal bars!' },
     8: { fileName: 'Waffle.jpeg', desc: 'Eagel Update, Day 8:<br/>Look at our spiky friend getting some waffles at the local supermarket.' },
+    9: { fileName: 'music.jpeg', desc: 'Eagel Update, Day 9:<br/>Listening to good old Rolling Stones music with his new buddy!' },
+    10: { fileName: 'floof.jpeg', desc: 'Eagel Update, Day 10:<br/>The Eagel discovered a new species in this house. It seems he now has taken the leadership of the floof-gang!' },
 }
 
 // n: { fileName: '', desc: 'Eagel Update, Day n:<br/>', image: '' },
