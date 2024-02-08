@@ -12,6 +12,10 @@ var ddoe = {
     11: { fileName: 'map.jpeg', desc: 'Eagel Update, Day 11:<br/>The Eagel found my new world map and decided to find a new vacation destination!' },
     12: { fileName: 'horror.jpeg', desc: 'Eagel Update, Day 12:<br/>The Eagel found a bunch of old horror tapes. I think he actually found his favourite one...' },
     13: { fileName: 'magic.jpeg', desc: 'Eagel Update, Day 13:<br/>The Eagel tried some magic today... Hopefully he\'s not going to burn anything...he\'s quite strong...' },
+    14: { fileName: 'membership.jpeg', desc: 'Eagel Update, Day 14:<br/>Today the Eagel helped me with the membership cards and we\'re making good progress! Maybe at the end of the week we\'ll be able to order them' },
+    15: { fileName: 'goddess.jpeg', desc: 'Eagel Update, Day 15:<br/>Today, the Eagel befriended a goddess from another universe and used his hair as a nest for her...<br/>Didn\'t know he could that but it\'s definitely awesome' },
+    16: { fileName: 'timetravel.jpeg', desc: 'Eagel Update, Day 16=17:<br/>Some critics may say, "Hannes forgot to post yesterday", but those people weren\'t as privilaged as I was yesterday.<br/>For the first time, I was able to watch the Eagel timetravel. Apparently yesterday and today is actually the same day!<br/>Isn\'t that awesome!!!' },
+    17: { fileName: 'timetravel.jpeg', desc: 'Eagel Update, Day 17=16:<br/>Some critics may say, "Hannes forgot to post yesterday", but those people weren\'t as privilaged as I was yesterday.<br/>For the first time, I was able to watch the Eagel timetravel. Apparently yesterday and today is actually the same day!<br/>Isn\'t that awesome!!!' },
 }
 
 // n: { fileName: '', desc: 'Eagel Update, Day n:<br/>', image: '' },
