@@ -16,6 +16,15 @@ var ddoe = {
     15: { fileName: 'goddess.jpeg', desc: 'Eagel Update, Day 15:<br/>Today, the Eagel befriended a goddess from another universe and used his hair as a nest for her...<br/>Didn\'t know he could that but it\'s definitely awesome' },
     16: { fileName: 'timetravel.jpeg', desc: 'Eagel Update, Day 16=17:<br/>Some critics may say, "Hannes forgot to post yesterday", but those people weren\'t as privilaged as I was yesterday.<br/>For the first time, I was able to watch the Eagel timetravel. Apparently yesterday and today is actually the same day!<br/>Isn\'t that awesome!!!' },
     17: { fileName: 'timetravel.jpeg', desc: 'Eagel Update, Day 17=16:<br/>Some critics may say, "Hannes forgot to post yesterday", but those people weren\'t as privilaged as I was yesterday.<br/>For the first time, I was able to watch the Eagel timetravel. Apparently yesterday and today is actually the same day!<br/>Isn\'t that awesome!!!' },
+    18: { fileName: 'party.jpeg', desc: 'Eagel Update, Day 18:<br/>The Eagel, left behind as we did not take a group picture with him...<br/>Coordination somewhat disappointing, <b>7</b> people forgot him, we need to repay him that!' },
+    19: { fileName: 'schtrong.jpeg', desc: 'Eagel Update, Day 19:<br/>He just spent all dax collecting THE POWER.<br/><br/>now he is very schtrong' },
+    20: { fileName: 'gardening.jpeg', desc: 'Eagel Update, Day 20:<br/>Eagel giving his best at gardening...<br/>The Lego cactus hasn\'t died yet after three hours!<br/>He\'s so incredible, it\'s pure mastery' },
+    21: { fileName: 'light.jpeg', desc: 'Eagel Update, Day 21:<br/>The Eagel helped me today with putting up LED-Lights!<br/>His Mini-Gun glowed really nice but sadly the camera didn\'t capture that quite right.' },
+    22: { fileName: 'cactus.jpeg', desc: 'Eagel Update, Day 22:<br/>The Eagel and his simmilarly circular friend - the cactus!' },
+    23: { fileName: 'pasta.jpeg', desc: 'Eagel Update, Day 23:<br/>To make the Eagel feal a little bit more at home, I placed him next to the offspring of his mama, the Spaghetti-Monster.<br/><br/><br/>(P. S. NO THIS IS NOT AN AD FOR A CERTAIN PASTA COMPANY' },
+    24: { fileName: 'quotes.jpeg', desc: 'Eagel Update, Day 24:<br/>Onehundredandtwelve citations. I think the pig\'s whistling. That took too long' },
+    25: { fileName: 'art.jpeg', desc: 'Eagel Update, Day 25:<br/>The Eagel is appreciating the highest arts!<br/><br/>Cultureeeee' },
+    26: { fileName: 'kilt.jpeg', desc: 'Eagel Update, Day 26:<br/>Soooooooooooo fashionable' },
 }
 
 // n: { fileName: '', desc: 'Eagel Update, Day n:<br/>', image: '' },
