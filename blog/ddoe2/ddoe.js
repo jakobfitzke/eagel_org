@@ -7,7 +7,7 @@ var ddoe = {
     6: { fileName: 'crossbow.jpeg', desc: 'Eagel Update 2.0, Day 6:<br/>The Eagel went for a slightly more medieval version of his usual revolver today... hunting birds and other mean creatures, you know the deal.' },
     7: { fileName: 'eagirl.jpeg', desc: 'Eagel Update 2.0, Day 7:<br/>The Eagel turned into the Eagirl...  (sadly, the pink gaming setup is missing, but that wasn\'t that easy to borrow)' },
     8: { fileName: 'meal.jpeg', desc: 'Eagel Update 2.0, Day 8:<br/>Nom nom' },
-    9: { fileName: 'fitness.jpeg', desc: 'Eagel Update 2.0, Day 9:<br/>The Eagel doing some sports on the Eagle-thingy<br/>(And before you think I\'m going to the gym: Nah)<br/>(But the Eagel does) ' },
+    9: { fileName: 'fitness.jpeg', desc: 'Eagel Update 2.0, Day 9:<br/>The Eagel doing some sports on the Eagel-thingy<br/>(And before you think I\'m going to the gym: Nah)<br/>(But the Eagel does) ' },
     10: { fileName: 'magazine.jpeg', desc: 'Eagel Update 2.0, Day 10:<br/>Here you see a spiky ball of floof reading his favourite magazine' },
     11: { fileName: 'mariokart.jpeg', desc: 'Eagel Update 2.0, Day 11:<br/>✨Mariokart with friends ✨' },
     12: { fileName: 'bus.jpeg', desc: 'Eagel Update 2.0, Day 12:<br/>Here you see the Eagel driving around in the neighbourhood of Lahr' },
