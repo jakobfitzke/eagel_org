@@ -25,6 +25,7 @@ var ddoe = {
     24: { fileName: 'quotes.jpeg', desc: 'Eagel Update, Day 24:<br/>Onehundredandtwelve citations. I think the pig\'s whistling. That took too long' },
     25: { fileName: 'art.jpeg', desc: 'Eagel Update, Day 25:<br/>The Eagel is appreciating the highest arts!<br/><br/>Cultureeeee' },
     26: { fileName: 'kilt.jpeg', desc: 'Eagel Update, Day 26:<br/>Soooooooooooo fashionable' },
+    27: { fileName: 'promotion.jpeg', desc: 'Eagel Update, Day 27:<br/>The Eagel only promotes the most professional businesses!' },
 }
 
 // n: { fileName: '', desc: 'Eagel Update, Day n:<br/>', image: '' },
