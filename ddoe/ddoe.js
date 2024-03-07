@@ -35,9 +35,18 @@ var ddoe = {
     34: { fileName: 'dnd.jpeg', desc: 'Eagel Update, Day 34:<br/>Today the Eagel is diving into the great world of D&D.<br/>His dice trows are always perfect, like the Eagel himself.🎲' },
     35: { fileName: 'colors.jpeg', desc: 'Eagel Update, Day 35:<br/>The Eagel checked out his new thronelike carriage transportation system - but needed to have a serious conversation with me about the color scheme afterwards (Seriously? Pink AND orange AND turquoise?!?)' },
     36: { fileName: 'schoolbag.jpeg', desc: 'Eagel Update, Day 36:<br/>Today, the Eagel camouflaged as a 3rd-grader, as he wanted to get to know the low-level educational institution called primary school attended by one of the little tribe members he\'s currently visiting.' },
+    37: { fileName: 'detective.jpeg', desc: 'Eagel Update, Day 37:<br/>Today, the Eagel discovered a new professional branch - detecting. Maybe the equipment can help to uncover the true criminal nature of the pesky birds, so he finally - and legally - can get rid of them!' },
+    38: { fileName: 'racing.jpeg', desc: 'Eagel Update, Day 38:<br/>Tonight, the Eagel broke several speed records. Without reaching the foot pedals. Well, the Eagel works in mysterious ways.' },
+    39: { fileName: 'aquarium.jpeg', desc: 'Eagel Update, Day 39:<br/>The Eagel wanted to research a new species,but unfortunately discovered his hydrophobia.' },
+    40: { fileName: 'bunny.jpeg', desc: 'Eagel Update, Day 40:<br/>After the Eagel didn\'t feel appreciated enough by the local floof species (although sharing similar fur coloring)...' },
+    41: { fileName: 'rewatching.jpeg', desc: 'Eagel Update, Day 41:<br/>...he decided to relive his magnificent flying experience to get himself out of his foul mood.' },
+    42: { fileName: 'fridge.jpeg', desc: 'Eagel Update, Day 42:<br/>Sorry for the delay - after the Eagel involved himself with the contents of the fridge, he got a slight... indigestion.' },
+    43: { fileName: 'books.jpeg', desc: 'Eagel Update, Day 43:<br/>There are no such things as too many books - only too little shelf. And the Eagel is just looking at the first row (there are two more behind).' },
+    44: { fileName: 'microscope.jpeg', desc: 'Eagel Update, Day 44:<br/>Today the Eagel detected a whole new universe through his microscope.' },
+    45: { fileName: 'dj.jpeg', desc: 'Eagel Update, Day 45:<br/>Newfound profession: Eagel is a DJ (musical reference intended)<br/>for further reference see: <a href="https://youtu.be/zXUrVJNIcgA?si=2Id2hJCiLZWGpOig">https://youtu.be/zXUrVJNIcgA?si=2Id2hJCiLZWGpOig</a>' },
 }
 
-// n: { fileName: '', desc: 'Eagel Update, Day n:<br/>', image: '' },
+// n: { fileName: '.jpeg', desc: 'Eagel Update, Day n:<br/>', image: '' },
 
 function createHtml(index) {
     let fileName = ddoe[index]['fileName']
