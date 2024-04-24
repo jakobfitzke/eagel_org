@@ -87,7 +87,7 @@ var ddoe = {
     86: { fileName: 'drums.jpeg', desc: 'Eagel Update, Day 86:<br/>The Eagel is playing a spiky beat - Ba Dum tss' },
     87: { fileName: 'heuteshow.jpeg', desc: 'Eagel Update, Day 87:<br/>The Eagel is watching the Heute Show - Mr. Söder loves Pandas...' },
     88: { fileName: 'schnapps.jpeg', desc: 'Eagel Update, Day 88:<br/>Because of the number of the Day (88), the Eagel drank schnapps: Now he\'s feeling bad...' },
-    89: { fileName: 'learningSP.jpeg', desc: 'Eagel Update, Day 89:<br/>Im sorry but the Eagel had to help me to learn for the Sports Abitur today so we didn\'t post something...' }, // broken for some reason
+    89: { fileName: 'learningSP2.jpeg', desc: 'Eagel Update, Day 89:<br/>Im sorry but the Eagel had to help me to learn for the Sports Abitur today so we didn\'t post something...' }, // broken for some reason
     90: { fileName: 'tree.jpeg', desc: 'Eagel Update, Day 90:<br/>Today the Eagel enjoyed the green garden - can you find him?', image: 'garden.jpeg' },
 }
 
